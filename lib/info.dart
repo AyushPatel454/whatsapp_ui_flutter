@@ -83,27 +83,27 @@ const messages = [
   {"isMe": true, "text": "Obviously, say", "time": "11:03 am"},
   {
     "isMe": false,
-    "text": "haha I wanted you to check out my new channel ^^",
+    "text": "haha I wanted you to check out my new webite ^^",
     "time": "11:04 am"
   },
   {
     "isMe": true,
-    "text": " Sure, what is the channel name?",
+    "text": " Sure, where's your new website link?",
     "time": "11:05 am"
   },
   {
     "isMe": false,
-    "text": "Rivaan Ranawat",
+    "text": "It's upload on my GitHub: AyushPatel454",
     "time": "11:06 am",
   },
   {
     "isMe": true,
-    "text": "Looks great to me!",
+    "text": "That's great!\nI will check it.",
     "time": "11:15 am",
   },
   {"isMe": false, "text": "Thanks bro!", "time": "11:17 am"},
-  {"isMe": false, "text": "Did you subscribe?", "time": "11:16 am"},
-  {"isMe": true, "text": "Yes, surely bro!", "time": "11:17 am"},
+  {"isMe": false, "text": "Did you Like it?", "time": "11:16 am"},
+  {"isMe": true, "text": "Yes, bro!", "time": "11:17 am"},
   {
     "isMe": false,
     "text": "Cool, did you like the content?",
