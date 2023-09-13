@@ -10,6 +10,6 @@ This application is run in following devices:
 - macOS
 - Web
 
-Website ouput:- [https://lucky-biscochitos-932504.netlify.app/#/](https://lucky-biscochitos-932504.netlify.app/#/)
+Website ouput:- [https://wonderful-taffy-c64cb1.netlify.app](https://wonderful-taffy-c64cb1.netlify.app)
 
 For hosting web app i use [Netlify](https://app.netlify.com/). Whith help of this website we can deploy any website and show up.
