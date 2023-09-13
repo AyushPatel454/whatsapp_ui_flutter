@@ -1,18 +1,15 @@
 # whatsapp_ui
 
-A new Flutter project.
+Technology Used: Flutter
 
-## Getting Started
+## Whatsapp UI Clone.
 
-It's a Whatsapp Responsive UI screen project.
+It's a Whatsapp Responsive UI screen project. In which i created only UI part of whatsapp.
+This application is run in following devices:
+- Android
+- macOS
+- Web
 
-This project is a starting point for a Flutter application.
+Website ouput:- [https://lucky-biscochitos-932504.netlify.app/#/](https://lucky-biscochitos-932504.netlify.app/#/)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For hosting web app i use [Netlify](https://app.netlify.com/). Whith help of this website we can deploy any website and show up.
