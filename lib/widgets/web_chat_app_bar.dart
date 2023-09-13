@@ -1,39 +1,44 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui/colors.dart';
+import 'package:whatsapp_ui/info.dart';
 
-class WebProfileBar extends StatelessWidget {
-  const WebProfileBar({super.key});
+class WebChatAppBar extends StatelessWidget {
+  const WebChatAppBar({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      // height of profile bar
       height: MediaQuery.of(context).size.height * 0.077,
-      // width of profile bar
-      width: MediaQuery.of(context).size.width * 0.25,
+      width: MediaQuery.of(context).size.width * 0.75,
       padding: const EdgeInsets.all(10),
-      decoration: const BoxDecoration(
-        border: Border(
-          right: BorderSide(
-            color: dividerColor,
-          ),
-        ),
-        color: webAppBarColor,
-      ),
+      color: webAppBarColor,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          const CircleAvatar(
-            backgroundImage: NetworkImage(
-                'https://images.unsplash.com/photo-1618641986557-1ecd230959aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60'),
-            radius: 30,
+          Row(
+            children: [
+              const CircleAvatar(
+                backgroundImage: NetworkImage(
+                    'https://cdn.pixabay.com/photo/2020/05/11/15/38/tom-5158824_1280.png'),
+                radius: 30,
+              ),
+              SizedBox(
+                width: MediaQuery.of(context).size.width * 0.01,
+              ),
+              Text(
+                info[1]['name'].toString(),
+                style: TextStyle(
+                  fontSize: 18,
+                ),
+              ),
+            ],
           ),
           Row(
             children: [
               IconButton(
                 onPressed: () {},
                 icon: Icon(
-                  Icons.comment,
+                  Icons.search,
                   color: Colors.grey,
                 ),
               ),
